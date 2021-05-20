@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>margin两栏布局</title>
+    <style>
+        .box {
+            overflow: hidden;
+        }
+        .box > img {float: left; width: 130px}
+        .box > p {margin-left: 140px;}
+    </style>
+</head>
+<body>
+<div class="box">
+    <img src="../../images/profile.jpg" alt="">
+    <p>文字内容就会根据.box 盒子的宽度变化而自动排列，形成自适应布局效果，无论盒子 是 200 像素还是 400 像素，布局依然良好，不会像纯浮动布局那样发生错位</p>
+</div>
+</body>
+</html>
